@@ -1,0 +1,20 @@
+#navbar {
+    display:flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#navbar > * {
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    height:100%;
+    display:flex;
+    align-items: center;
+    padding: 0 0.5em;
+}
+
+#navbar > *:hover {
+    background-color: rgb(25, 116, 219);
+    cursor:pointer;
+}

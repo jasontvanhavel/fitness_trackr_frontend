@@ -1,0 +1,17 @@
+#creation-form {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+}
+
+#creation-form > * {
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+    margin:1em;
+}
+
+#creation-form > button {
+    margin:3em;
+}

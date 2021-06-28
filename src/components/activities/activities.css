@@ -1,0 +1,20 @@
+.tabs {
+    display: flex;
+    flex-direction: row;
+}
+
+.tabs > * {
+    margin: 0 1em 0 0;
+    text-decoration: none;
+    color:black;
+}
+
+.tabs > *:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#activity-results {
+    display:grid;
+    grid-template: repeat(6, 1fr) / repeat(4, 1fr);
+}

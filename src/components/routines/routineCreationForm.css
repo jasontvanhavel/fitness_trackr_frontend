@@ -1,0 +1,8 @@
+#ispublic-input {
+    display:flex;
+    flex-direction: row;
+}
+
+#routine-ispublic-input {
+    margin: 0 0 0 1em;
+}

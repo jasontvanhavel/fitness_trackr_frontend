@@ -1,0 +1,4 @@
+#routines-display {
+    display:grid;
+    grid-template: repeat(4, 20%) / repeat(3, 1fr)
+}
