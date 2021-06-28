@@ -11,7 +11,7 @@ const Routines = () => {
     const [routines, setRoutines] = useState([]);
 
     useEffect(async () => {
-        setRoutines( (await axios.get('http://fitnesstrac-kr.herokuapp.com/api/routines')).data);
+        setRoutines( (await axios.get('https://fitnesstrac-kr.herokuapp.com/api/routines')).data);
     }, [])
 
     return <div id="routines-div">

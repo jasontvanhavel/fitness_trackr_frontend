@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import Routines from './Routines';
 import './singleRoutine.css';
 
-const BASE_URL = 'http://fitnesstrac-kr.herokuapp.com/api';
+const BASE_URL = 'https://fitnesstrac-kr.herokuapp.com/api';
 
 const SingleRoutine = ({routine, editable, activities}) => {
 

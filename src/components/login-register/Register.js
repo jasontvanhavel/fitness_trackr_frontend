@@ -15,7 +15,7 @@ const Register = ({isLoggedIn, setIsLoggedIn}) => {
                 password: inputPassword
             }
             try {
-                const response = await axios.post('http://fitnesstrac-kr.herokuapp.com/api/users/register', user);
+                const response = await axios.post('https://fitnesstrac-kr.herokuapp.com/api/users/register', user);
                 localStorage.setItem("userToken", response.data.token);
                 localStorage.setItem("username", response.data.user.username);
                 setIsLoggedIn(true)

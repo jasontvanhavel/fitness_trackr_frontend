@@ -10,7 +10,7 @@ const Activities = ({isLoggedIn}) => {
     const [newActivity, setNewActivity] = useState({});
 
     useEffect(async () => {
-        setActivities( (await axios.get('http://fitnesstrac-kr.herokuapp.com/api/activities')).data);
+        setActivities( (await axios.get('https://fitnesstrac-kr.herokuapp.com/api/activities')).data);
     }, [newActivity])
 
     

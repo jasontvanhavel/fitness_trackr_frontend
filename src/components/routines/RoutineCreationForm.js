@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, {useState, useEffect} from 'react';
 import './routineCreationForm.css'
 
-const BASE_URL = 'http://fitnesstrac-kr.herokuapp.com/api';
+const BASE_URL = 'https://fitnesstrac-kr.herokuapp.com/api';
 
 const RoutineCreationForm = ({setRoutinesToDisplay, routinesToDisplay, activities, setActivities}) => {
 

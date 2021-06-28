@@ -12,7 +12,7 @@ const ActivityCreationForm = ({setNewActivity}) => {
         }
 
         try {
-            await axios.post("http://fitnesstrac-kr.herokuapp.com/api/activities",
+            await axios.post("https://fitnesstrac-kr.herokuapp.com/api/activities",
             {
                 name: activity.name,
                 description: activity.description

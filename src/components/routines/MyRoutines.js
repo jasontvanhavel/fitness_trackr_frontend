@@ -5,7 +5,7 @@ import RoutineCreationForm from './RoutineCreationForm';
 import SingleRoutine from './SingleRoutine';
 import './myroutines.css'
 
-const BASE_URL = 'http://fitnesstrac-kr.herokuapp.com/api'
+const BASE_URL = 'https://fitnesstrac-kr.herokuapp.com/api'
 
 const MyRoutines = ({isLoggedIn}) => {
 
@@ -18,7 +18,7 @@ const MyRoutines = ({isLoggedIn}) => {
     }, []);
 
     useEffect(async () => {
-        setRoutines( (await axios.get(`http://fitnesstrac-kr.herokuapp.com/api/users/${localStorage.getItem("username")}/routines`,
+        setRoutines( (await axios.get(`https://fitnesstrac-kr.herokuapp.com/api/users/${localStorage.getItem("username")}/routines`,
         {
             headers: {
                 Authorization: "Bearer " + localStorage.getItem("userToken")
